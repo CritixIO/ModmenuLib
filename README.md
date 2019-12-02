@@ -1,5 +1,3 @@
-import "github.com/fatih/color"
-
 <html>
 <head>
 <h1>ModmenuLib allow you to create your own Menu fast and easy on overlay over<br/>
