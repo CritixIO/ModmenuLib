@@ -1,5 +1,10 @@
+<!DOCTYPE html>
 <html>
-<head>
+	<head>
+		<meta charset="utf-8" />
+    	<title>CV Mathieu José</title>
+	</head>
+<body>
 <h1>ModmenuLib allow you to create your own Menu fast and easy on overlay over<br/>
 fullscreen and windowed executables(.exe)</h1>
 First Step you need to declare it where you wan't in your project : "new ModmenuLib.Overlay();" <br/>
@@ -43,5 +48,5 @@ h1 {color:red;}
 p {color:blue;}
 </style>
 <p>okay</p>
-</head>
+</body>
 </html>
