@@ -36,5 +36,12 @@ Note, all settings are auto updated in the Draw events if your change directly i
   <ul>
   </ul>
 </ul>
+<style
+  type="text/css">
+h1 {color:red;}
+
+p {color:blue;}
+</style>
+<p>okay</p>
 </head>
 </html>
