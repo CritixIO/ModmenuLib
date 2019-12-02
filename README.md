@@ -72,7 +72,7 @@ Note, all settings are auto updated in the Draw events if your change directly i
 </ul>
 
 <h3>Script for your void FunctionType 1</h3>
-<h2>
+<h4>
   int OnItem = Page[ModmenuLib.Menu.Get.WasOnPage].Items.FindIndex(x => x.WasOn == true);</br>
   if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].FunctionActivated == true)</br>
   {</br>
@@ -82,9 +82,9 @@ Note, all settings are auto updated in the Draw events if your change directly i
   {
     //Off</br>
   }</br>
-</h2>  
+</h4>  
 <h3>Script for your void FunctionType 2</h3>
-<h2>
+<h4>
 int OnItem = Page[ModmenuLib.Menu.Get.WasOnPage].Items.FindIndex(x => x.WasOn == true);</br>
 if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].Function2_SelectedValue == "val1")</br>
 {</br>
@@ -94,6 +94,6 @@ else if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].Function2_SelectedValu
 {</br>
   //code</br>
 }......
-</h2>
+</h4>
 </head>
 </html>
