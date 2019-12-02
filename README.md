@@ -5,9 +5,9 @@ Second Step you need to modify contents inside the void "Load()" in ModmenuLib.M
 
 <p>STEP's for create your Menu : <br/>
 Note, all settings are auto updated in the Draw events if your change directly in your Menu</p>
-<ol>
-  <li><h4>Step 1</h4></li>
-  <ol>
+<ul>
+  <li><h4>Step 1 : Settings</h4></li>
+  <ul>
   <li>GameName = "gta_sa"; //exe name (without writing .exe)</li>
   <li>Image = null; //if you wan't an image for your menu (use my lib https://github.com/AmlostudioDev/Zip if you wan't)</li>
   <li>Opacity = 100; //Menu transparency value's 0-100 only</li>
@@ -29,9 +29,9 @@ Note, all settings are auto updated in the Draw events if your change directly i
   <li>Disable = "Off"; //Text of the Disable Function</li> 
   <li>Bars = new string[] { "[", "]" }; //Chars before and after the Enable-Disable-Value Text</li> 
   <li>Bars_Color = Color.White; //Color of the Chars</li>
-  </ol>
-  <li><h4>Step 2</h4></li>
-  <ol>
-  </ol>
-</ol>
+  </ul>
+  <li><h4>Step 2 : Creating your Menu</h4></li>
+  <ul>
+  </ul>
+</ul>
 
