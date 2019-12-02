@@ -1,5 +1,3 @@
-<html>
-<head> 
 <h1>ModmenuLib allow you to create your own Menu fast and easy on overlay over<br/>
 fullscreen and windowed executables(.exe)</h1>
 First Step you need to declare it where you wan't in your project : "new ModmenuLib.Overlay();" <br/>
@@ -36,5 +34,3 @@ Note, all settings are auto updated in the Draw events if your change directly i
   <ul>
   </ul>
 </ul>
-</head>
-</html>
