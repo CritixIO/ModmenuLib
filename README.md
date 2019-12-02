@@ -13,7 +13,7 @@ Note, all settings are auto updated in the Draw events if your change directly i
   <ul>
   <h4>exe name (without writing .exe)</h4>
   <li>GameName = "gta_sa"; </li>
-  <h4>Image Background (use my lib https://github.com/AmlostudioDev/Zip if you wan't)</h4>
+  <h4>Image Background (use my lib https://github.com/AmlostudioDev/ZipLib if you wan't)</h4>
   <li>Image = null;</li>
   <h4>Menu transparency value's 0-100 only</h4>
   <li>Opacity = 100;</li>
