@@ -1,15 +1,16 @@
 # ModmenuLib
-ModmenuLib allow you to create your own Menu fast and easy on overlay over fullscreen and windowed executables(.exe) <br/>
+<h1>ModmenuLib allow you to create your own Menu fast and easy on overlay over<br/>
+fullscreen and windowed executables(.exe)</h1>
 First Step you need to declare it where you wan't in your project : "new ModmenuLib.Overlay();" <br/>
 Second Step you need to modify contents inside the void "Load()" in ModmenuLib.Menu.Load.cs <br/>
 
-<p>STEP's for create your Menu : <br/>
-Note, all settings are auto updated in the Draw events if your change directly in your Menu</p>
+<h3>STEP's for create your Menu : <br/>
+Note, all settings are auto updated in the Draw events if your change directly in your Menu</h3>
 <ul>
   <li><h4>Step 1 : Settings</h4></li>
   <ul>
   <li>GameName = "gta_sa"; //exe name (without writing .exe)</li>
-  <li>Image = null; //if you wan't an image for your menu (use my lib https://github.com/AmlostudioDev/Zip if you wan't)</li>
+  <li>Image = null; //Image Background (use my lib https://github.com/AmlostudioDev/Zip if you wan't)</li>
   <li>Opacity = 100; //Menu transparency value's 0-100 only</li>
   <li>Location = new Point(10,10); //Location of your Menu</li>
   <li>Size = new Size(200, 400); //Size of your Menu (if Image != null, the Size was set to the image Size)</li>
