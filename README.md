@@ -73,26 +73,26 @@ Note, all settings are auto updated in the Draw events if your change directly i
 
 <h3>Script for your void FunctionType 1</h3>
 <h2>
-  int OnItem = Page[ModmenuLib.Menu.Get.WasOnPage].Items.FindIndex(x => x.WasOn == true);
-  if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].FunctionActivated == true)
+  int OnItem = Page[ModmenuLib.Menu.Get.WasOnPage].Items.FindIndex(x => x.WasOn == true);</br>
+  if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].FunctionActivated == true)</br>
+  {</br>
+    //On</br>
+  }</br>
+  else</br>
   {
-    //On
-  }
-  else
-  {
-    //Off
-  }
+    //Off</br>
+  }</br>
 </h2>  
 <h3>Script for your void FunctionType 2</h3>
 <h2>
-int OnItem = Page[ModmenuLib.Menu.Get.WasOnPage].Items.FindIndex(x => x.WasOn == true);
-if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].Function2_SelectedValue == "val1")
-{
-  //code
-}
-else if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].Function2_SelectedValue == "val2")
-{
-  //code
+int OnItem = Page[ModmenuLib.Menu.Get.WasOnPage].Items.FindIndex(x => x.WasOn == true);</br>
+if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].Function2_SelectedValue == "val1")</br>
+{</br>
+  //code</br>
+}</br>
+else if(Page[ModmenuLib.Menu.Get.WasOnPage].Items[OnItem].Function2_SelectedValue == "val2")</br>
+{</br>
+  //code</br>
 }......
 </h2>
 </head>
