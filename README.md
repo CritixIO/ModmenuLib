@@ -31,7 +31,7 @@ Note, all settings are auto updated in the Draw events if your change directly i
   <li>Key.Left = Keys.Left; </li>
   <h4>Key for Select Value +1 + Auto Active Item Function</h4>
   <li>Key.Right = Keys.Right; </li>
-  <h4>Key for Enable-Disable a Item Function</h4>
+  <h4>Key for Active Item Function</h4>
   <li>Key.Action = Keys.Enter; </li>
   <h4>Color of your Menu</h4>
   <li>Color = Color.Black; </li>
