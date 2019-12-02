@@ -6,7 +6,7 @@ Second Step you need to modify contents inside the void "Load()" in ModmenuLib.M
 STEP's for create your Menu : <br/>
 1 : Note, all settings are auto updated in the Draw events if your change directly in your Menu<br/>
 GameName = ""; //exe name (without writing .exe)<br/>
-Image = null; //if you wan't an image for your menu (use my lib https://github.com/AmlostudioDev/Zip if you wan't)<br/>
+Image = null; <span style="color:green">//if you wan't an image for your menu (use my lib https://github.com/AmlostudioDev/Zip if you wan't)</span><br/>
 Opacity = 100; //Menu transparency value's 0-100 only<br/>
 Location = new Point(10,10); //Location of your Menu<br/>
 Size = new Size(200, 400); //Size of your Menu (if Image != null, the Size was set to the image Size)<br/>
