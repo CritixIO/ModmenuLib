@@ -10,7 +10,7 @@ Note, all settings are auto updated in the Draw events if your change directly i
 <ul>
   <li><h4>Step 1 : Settings</h4></li>
   <ul>
-  <li>GameName = "gta_sa"; <span color=green>//exe name (without writing .exe)</span></li>
+  <li>GameName = "gta_sa"; <span style="color:green">//exe name (without writing .exe)</span></li>
   <li>Image = null; //Image Background (use my lib https://github.com/AmlostudioDev/Zip if you wan't)</li>
   <li>Opacity = 100; //Menu transparency value's 0-100 only</li>
   <li>Location = new Point(10,10); //Location of your Menu</li>
