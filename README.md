@@ -1,8 +1,5 @@
 <html>
 <head> 
-```html
-
-
 <h1>ModmenuLib allow you to create your own Menu fast and easy on overlay over<br/>
 fullscreen and windowed executables(.exe)</h1>
 First Step you need to declare it where you wan't in your project : "new ModmenuLib.Overlay();" <br/>
@@ -13,7 +10,7 @@ Note, all settings are auto updated in the Draw events if your change directly i
 <ul>
   <li><h4>Step 1 : Settings</h4></li>
   <ul>
-  <li>GameName = "gta_sa"; <span style="color:green">//exe name (without writing .exe)</span></li>
+  <li>GameName = "gta_sa"; <div class="text-green">//exe name (without writing .exe)</div></li>
   <li>Image = null; //Image Background (use my lib https://github.com/AmlostudioDev/Zip if you wan't)</li>
   <li>Opacity = 100; //Menu transparency value's 0-100 only</li>
   <li>Location = new Point(10,10); //Location of your Menu</li>
@@ -39,6 +36,5 @@ Note, all settings are auto updated in the Draw events if your change directly i
   <ul>
   </ul>
 </ul>
-```
 </head>
 </html>
